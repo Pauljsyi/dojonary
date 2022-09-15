@@ -1,0 +1,108 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Mukta", sans-serif;
+  max-width: 1440px;
+}
+
+body {
+  width: 65%;
+}
+
+.navbar {
+  /* width: 80%; */
+  padding: 5px;
+
+  display: flex;
+  background-color: rgb(108, 108, 108);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navbar input,
+.navbar h1,
+.navbar button {
+  margin: 10px;
+}
+
+.navbar input {
+  width: 400px;
+  height: 30px;
+  border: 3px solid black;
+  padding-left: 10px;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  border: 3px solid black;
+  box-shadow: 5px 5px black;
+  background-color: rgb(43, 120, 228);
+  color: white;
+  margin: 0 10px 10px 0;
+  font-size: large;
+}
+
+.main,
+.left-container,
+.right-container {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-container {
+  display: flex;
+  width: 300px;
+}
+
+.card {
+  display: flex;
+  border: 3px solid black;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+/* LEFT CARDS */
+
+.word button {
+  background-color: rgb(255, 217, 102);
+  color: black;
+  font-size: large;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.definition {
+  padding-left: 75px;
+}
+
+.definition h2 {
+  width: 350px;
+  padding: 0 25x 0 50px;
+}
+
+.definition h2 a {
+  color: rgb(43, 120, 228);
+}
+
+/* RIGHT CARDS */
+
+.new-definition button {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(147, 196, 125);
+  color: black;
+  font-size: large;
+}
+
+.right-container .card {
+  max-height: 150px;
+}
